@@ -44,6 +44,14 @@ public final class SdsModuleConfigurations {
             (15.0 / 32.0) * (10.0 / 60.0),
             true
     );
+    public static final ModuleConfiguration MK2_ALL_STEEL = new ModuleConfiguration(
+            .1016,
+            (16.0 / 40.0) * (24.0 / 20.0) * (15.0 / 60.0),
+            true,
+            18.0 / 1.0,
+            true
+        );
+
 
     private SdsModuleConfigurations() {
     }
